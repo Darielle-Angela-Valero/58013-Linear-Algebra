@@ -14,8 +14,8 @@ disp('An orange costs:')
 disp(c(2))
 
 x_val = linspace(-100, 100, 100);% creates a range of x values for plotting.
-y_val_a = (350 - 20*x_values) / 10; %compute y value
-y_val_b = (500 - 17*x_values) / 22; %compute y value
+y_val_a = (350 - 20*x_val) / 10; %compute y value
+y_val_b = (500 - 17*x_val) / 22; %compute y value
 
 plot(x_val, y_val_a);
 hold on;
